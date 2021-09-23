@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <div id="toppest">
+      <div class="logo_contain">LOGO</div>
+      <div class="search_container">
+          <input type="text" placeholder="search here...">
+          <i class="fa fa-search"></i>
+      </div>
+  </div>
+
+
+  <div id="navbar">
+      <div class="nav_show_button" onClick="showNavbar()"><i class="fa fa-bars"></i></div>
+      <div class="nav_links">
+          <a href="#ome">Home</a>
+          <a href="#category">Category</a>
+          <a href="#new_products">Product</a>
+         <a href="#contact_us">Contact</a>
+
+      </div>
+
+
+      <div class="nav_toggle" id="nav_toggle">
+          <div class="nav_hide_button" onClick="hideNavbar()">X</div>
+        <a href="#ome" id="top_a" onClick="hideNavbar()">Home</a>
+        <a href="#category" onClick="hideNavbar()">Category</a>
+        <a href="#new_products" onClick="hideNavbar()">Product</a>
+       <a href="#contact_us" onClick="hideNavbar()">Contact</a>
+
+    </div>
+
+
+      <div class="nav_icons">
+          <div class="cart">	
+            <i class="fa fa-shopping-cart"></i></div>
+          <div class="liked"><i class="fa fa-heart"></i></div>
+          <div class="user"><i class="fa fa-user"></i></div>
+
+      </div>
+  </div>
+
+  <div class="main-carousel">
+    <div class="carousel-cell"><img src="images/slider1.jpg" alt="here"></div>
+    <div class="carousel-cell"><img src="images/slider2.jpg" alt="here"></div>
+    <div class="carousel-cell"><img src="images/slider3.jpg" alt="here"></div>
+
+  </div>
+    
+
+
+  <div id="banner_container">
+      <div class="banner" data-aos="fade-right">
+          <img src="images/banner1.jpg" alt="">
+          <div class="banner_content">
+              <h2>New Arrivals</h2>
+              <h1>House Plants</h1>
+              <button>Shop Now</button>
+          </div>
+      </div>
+
+      <div class="banner" data-aos="fade-left">
+        <img src="images/banner2.jpg" alt="">
+        <div class="banner_content">
+            <h2>New Arrivals</h2>
+            <h1>House Plants</h1>
+            <button>Shop Now</button>
+        </div>
+    </div>
+  </div>
+
+
+
+
+  <section class="category" id="category">
+
+    <h1 class="heading" data-aos="fade-right"> shop by category </h1>
+    
+    <div class="box-container">
+    
+        <div class="box" data-aos="zoom-out">
+            <img src="images/cat1.jpg" alt="">
+            <div class="content">
+
+              
+                <a href="#" class="btn">shop now</a>
+              
+            </div>
+            <div class="content_2">
+                <h3>bonsai</h3>
+            </div>
+        </div>
+
+
+        <div class="box" data-aos="zoom-out">
+            <img src="images/cat2.jpg" alt="">
+            <div class="content">
+
+              
+                <a href="#" class="btn">shop now</a>
+              
+            </div>
+            <div class="content_2">
+                <h3>Plants of House</h3>
+            </div>
+        </div>
+
+
+        <div class="box" data-aos="zoom-out">
+            <img src="images/cat3.jpg" alt="">
+            <div class="content">
+
+              
+                <a href="#" class="btn">shop now</a>
+              
+            </div>
+            <div class="content_2">
+                <h3>Plants of Office</h3>
+            </div>
+        </div>
+
+
+        <div class="box" data-aos="zoom-out">
+            <img src="images/cat4.jpg" alt="">
+            <div class="content">
+
+              
+                <a href="#" class="btn">shop now</a>
+              
+            </div>
+            <div class="content_2">
+                <h3>Gift Plants</h3>
+            </div>
+        </div>
+   
+    
+    </div>
+    
+    </section>
+
+
+
+    <section id="new_products">
+        <div class="new_product_heading" data-aos="fade-right">New Products</div>
+        <div class="new_product_container">
+
+
+
+
+
+            <div class="new_product_card" data-aos="zoom-in-up">
+                <div class="new_product_photo">
+                    <img src="images/product1.jpg" alt="">
+                </div>
+              
+                <div class="product_content">
+                    <div class="product_content_heading">Latest Plants</div>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <div class="quantity_input">
+                        <label for="number">Quantity:</label>
+                        <input type="number" value="1">
+                    </div>
+                    <div class="product_rates">
+                        <div class="new_rate">$14.70</div>
+                        <div class="old_rate">$18.20</div>
+                    </div>
+                    <div class="addBtn">
+                        <button>Add To Cart</button>
+                    </div>
+
+                    <div class="discount">-10%</div>
+                    <div class="actionBtns">
+                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-share"></i>
+                        <i class="fa fa-eye"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="new_product_card" data-aos="zoom-in-up">
+                <div class="new_product_photo">
+                    <img src="images/product2.jpg" alt="">
+                </div>
+              
+                <div class="product_content">
+                    <div class="product_content_heading">Latest Plants</div>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <div class="quantity_input">
+                        <label for="number">Quantity:</label>
+                        <input type="number" value="1">
+                    </div>
+                    <div class="product_rates">
+                        <div class="new_rate">$14.70</div>
+                        <div class="old_rate">$18.20</div>
+                    </div>
+                    <div class="addBtn">
+                        <button>Add To Cart</button>
+                    </div>
+
+                    <div class="discount">-10%</div>
+                    <div class="actionBtns">
+                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-share"></i>
+                        <i class="fa fa-eye"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="new_product_card" data-aos="zoom-in-up">
+                <div class="new_product_photo">
+                    <img src="images/product3.jpg" alt="">
+                </div>
+              
+                <div class="product_content">
+                    <div class="product_content_heading">Latest Plants</div>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <div class="quantity_input">
+                        <label for="number">Quantity:</label>
+                        <input type="number" value="1">
+                    </div>
+                    <div class="product_rates">
+                        <div class="new_rate">$14.70</div>
+                        <div class="old_rate">$18.20</div>
+                    </div>
+                    <div class="addBtn">
+                        <button>Add To Cart</button>
+                    </div>
+
+                    <div class="discount">-10%</div>
+                    <div class="actionBtns">
+                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-share"></i>
+                        <i class="fa fa-eye"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="new_product_card" data-aos="zoom-in-up">
+                <div class="new_product_photo">
+                    <img src="images/product4.jpg" alt="">
+                </div>
+              
+                <div class="product_content">
+                    <div class="product_content_heading">Latest Plants</div>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <div class="quantity_input">
+                        <label for="number">Quantity:</label>
+                        <input type="number" value="1">
+                    </div>
+                    <div class="product_rates">
+                        <div class="new_rate">$14.70</div>
+                        <div class="old_rate">$18.20</div>
+                    </div>
+                    <div class="addBtn">
+                        <button>Add To Cart</button>
+                    </div>
+
+                    <div class="discount">-10%</div>
+                    <div class="actionBtns">
+                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-share"></i>
+                        <i class="fa fa-eye"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="new_product_card" data-aos="zoom-in-up">
+                <div class="new_product_photo">
+                    <img src="images/product5.jpg" alt="">
+                </div>
+              
+                <div class="product_content">
+                    <div class="product_content_heading">Latest Plants</div>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <div class="quantity_input">
+                        <label for="number">Quantity:</label>
+                        <input type="number" value="1">
+                    </div>
+                    <div class="product_rates">
+                        <div class="new_rate">$14.70</div>
+                        <div class="old_rate">$18.20</div>
+                    </div>
+                    <div class="addBtn">
+                        <button>Add To Cart</button>
+                    </div>
+
+                    <div class="discount">-10%</div>
+                    <div class="actionBtns">
+                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-share"></i>
+                        <i class="fa fa-eye"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="new_product_card" data-aos="zoom-in-up">
+                <div class="new_product_photo">
+                    <img src="images/product6.jpg" alt="">
+                </div>
+              
+                <div class="product_content">
+                    <div class="product_content_heading">Latest Plants</div>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+
+                    </div>
+                    <div class="quantity_input">
+                        <label for="number">Quantity:</label>
+                        <input type="number" value="1">
+                    </div>
+                    <div class="product_rates">
+                        <div class="new_rate">$14.70</div>
+                        <div class="old_rate">$18.20</div>
+                    </div>
+                    <div class="addBtn">
+                        <button>Add To Cart</button>
+                    </div>
+
+                    <div class="discount">-10%</div>
+                    <div class="actionBtns">
+                        <i class="fa fa-heart"></i>
+                        <i class="fa fa-share"></i>
+                        <i class="fa fa-eye"></i>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class="features" data-aos="fade-up">
+
+            <div class="feature_item">
+                <div class="feature_icon"><i class="fa fa-truck"></i></div>
+                <div class="feature_detail">
+                    <h2>Free Shipping</h2>
+                    <p>Free Shipping on Order</p>
+                </div>
+            </div>
+
+
+            <div class="feature_item">
+                <div class="feature_icon"><i class="fa fa-credit-card"></i></div>
+                <div class="feature_detail">
+                    <h2>100% Refund</h2>
+                    <p>You've 80 Days to Return</p>
+                </div>
+            </div>
+
+
+
+            <div class="feature_item">
+                <div class="feature_icon"><i class="fa fa-money"></i></div>
+                <div class="feature_detail">
+                    <h2>Pay Secure</h2>
+                    <p>100% Secure Payment</p>
+                </div>
+            </div>
+
+
+            <div class="feature_item">
+                <div class="feature_icon"><i class="fa fa-handshake-o"></i></div>
+                <div class="feature_detail">
+                    <h2>Support 24/7</h2>
+                    <p>Contact Us Anytime</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section id="contact_us">
+        <div class="contact_heading" data-aos="fade-right">Get In Touch</div>
+        <div class="contact_details">
+            <div class="contact_map" data-aos="fade-right">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15076.895920873054!2d72.83196972644954!3d19.141670564195152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1621609263469!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact_form" data-aos="fade-left">
+                <form action="">
+                    <input type="text" placeholder="Your name" id="top_inp">
+                    <input type="text" placeholder="Your email">
+                    <textarea placeholder="Type Your Message . . . "></textarea>
+                    <button class="form_btn">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="footer">
+        <div class="footer_top" >
+            <div class="about_us" data-aos="fade-down">
+                <div class="footer_heading">About Us</div>
+                <div class="footer_para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit iure, dolore iste explicabo quis asperiores voluptatum dolores provident eos!</div>
+            </div>
+
+            <div class="about_us" data-aos="fade-up">
+                <div class="footer_heading">Brand Location</div>
+                <div class="footer_list">
+                    <ul>
+                        <li>India</li>
+                        <li>USA</li>
+                        <li>Japan</li>
+                        <li>France</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="about_us" data-aos="fade-down">
+                <div class="footer_heading">Quick Links</div>
+                <div class="footer_list">
+                    <ul>
+                        <li>Home</li>
+                        <li>Category</li>
+                        <li>Product</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="about_us" data-aos="fade-up">
+                <div class="footer_heading">Follow Us</div>
+                <div class="footer_list">
+                    <ul>
+                        <li>Facbook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Linked</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="footer_bottom" >Created by Nikhil Bhatt || All Rights Reserved</div>
+    </section>
+
+
+
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>   
+<script>
+    AOS.init();
+  </script> 
+</body>
+</html>
