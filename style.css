@@ -44,14 +44,14 @@ border: none;
 }
 
 .search_container input::placeholder{
-    padding-left: 30px;
+    padding-left: 10px;
     font-weight: bolder;
  color:rgb(209, 209, 209);
 
 }
 
 .search_container input[type="text"]{
-    padding-left: 30px;
+    padding-left: 10px;
     font-weight: bolder;
  color:white;
 
@@ -173,10 +173,6 @@ margin-right:25px;
 }
 
 .main-carousel{
-    position: absolute;
-    top: 120px;
-    left: 0;
-    right: 0;
     width: 100vw;
     height: 100vh;
     /* z-index:-2000; */
@@ -212,8 +208,6 @@ margin-right:25px;
   #banner_container{
       
       width: 100vw;
-      position: absolute;
-      top: 750px;
       padding: 50px;
       display: flex;
       justify-content: center;
@@ -268,10 +262,6 @@ margin-right:25px;
   }
 
   .category{
-      position: absolute;
-      top:1200px;
-      left: 0;
-      right: 0;
       width: 100vw;
   }
 
@@ -378,10 +368,8 @@ margin-right:25px;
 
 
 #new_products{
-    position: absolute;
     width: 100vw;
-    top: 1700px;
-
+    margin-top: 100px;
 }
 
 
@@ -580,10 +568,6 @@ margin-right:25px;
 
 #contact_us{
     width: 100vw;
-    position: absolute;
-    top: 2900px;
-    left: 0;
-    right: 0;
 
 }
 
@@ -666,10 +650,6 @@ margin-right:25px;
 
 #footer{
     width: 100vw;
-    position: absolute;
-    top: 3450px;
-    left: 0;
-    right: 0;
 }
 
 
@@ -727,38 +707,14 @@ margin-right:25px;
 
 
 
-@media (max-width:1144px) and (min-width:773px){
-  
-    #new_products{
-        top: 2000px;
-      }
-
-      #contact_us{
-        top: 3800px;
-    }
-
-    #footer{
-        top: 4300px; 
-      }
-}
 
 
 
 
-@media (max-width:772px) and (min-width:634px){
-  
-    #new_products{
-        top: 2000px;
-      }
 
-      #contact_us{
-        top: 5300px;
-    }
 
-    #footer{
-        top: 5900px; 
-      }
-}
+
+
 
 
 
@@ -782,17 +738,7 @@ margin-right:25px;
           left:-50px;
       }
 
-      #category{
-        top:1400px;
-      }
 
-      #new_products{
-        top: 2800px;
-      }
-
-      #contact_us{
-          top: 6200px;
-      }
 
       .contact_details{
           flex-direction: column;
@@ -804,16 +750,12 @@ margin-right:25px;
           width: 100%;
       }
 
-
-      #footer{
-        top: 7100px; 
-      }
   }
 
 
   
   @media (max-width:460px){
         .search_container input{
-            width: 200px;
+            width: 170px;
         }
   }
