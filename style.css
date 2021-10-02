@@ -727,6 +727,40 @@ margin-right:25px;
 
 
 
+@media (max-width:1144px) and (min-width:773px){
+  
+    #new_products{
+        top: 2000px;
+      }
+
+      #contact_us{
+        top: 3800px;
+    }
+
+    #footer{
+        top: 4300px; 
+      }
+}
+
+
+
+
+@media (max-width:772px) and (min-width:634px){
+  
+    #new_products{
+        top: 2000px;
+      }
+
+      #contact_us{
+        top: 5300px;
+    }
+
+    #footer{
+        top: 5900px; 
+      }
+}
+
+
 
 
 
@@ -774,4 +808,12 @@ margin-right:25px;
       #footer{
         top: 7100px; 
       }
+  }
+
+
+  
+  @media (max-width:460px){
+        .search_container input{
+            width: 200px;
+        }
   }
